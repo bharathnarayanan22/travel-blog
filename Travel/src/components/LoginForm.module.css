@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loginformparent {
+  width: 99.8%;
+  height: 660px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding: 40px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background-image: url("src/images/loginbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginformparent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginformparent form h3 {
+  color: white;
+}
+
+.loginformparent form button {
+  margin: 10% auto;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+width: 30%;
+  
+}
+
+.animage {
+  margin: auto 0px;
+  border-radius: 8px;
+  text-align: start;
+}
+.animage h2 {
+  margin: 0px;
+  color: white;
+  font-size: 300%;
+}
